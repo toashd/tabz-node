@@ -1,0 +1,25 @@
+{
+  "name": "tabz-node",
+  "author": {
+    "name": "Tobias Schmid",
+    "url": "http://github.com/toashd"
+  },
+  "bin": {
+    "tabzz": "./bin/tabz.js"
+  },
+  "version": "1.0.0",
+  "description": "Handling browser tabz on the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fuzzy": "^0.1.3",
+    "inquirer": "^5.1.0",
+    "inquirer-autocomplete-prompt": "^0.12.1",
+    "mozlz4": "file:../mozlz4",
+    "opn": "^5.2.0",
+    "promise": "^8.0.1"
+  }
+}
