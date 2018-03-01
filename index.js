@@ -16,7 +16,7 @@ const run = async () => {
 
   // Show tabs in a list.
   inquirer.askUrls(tabs).then(answer => {
-    onsole.log(`${config.browser} opening ${answer.url}`);
+    console.log(`${config.browser} opening ${answer.url}`);
     opn(answer.url, {app: config.browser});
     process.exit();
   });
