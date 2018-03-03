@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 
-const tabz = require('../');
-
-run();
+const tabz = require('../index');
+tabz.run();

@@ -29,5 +29,11 @@ if (!utils.isMac()) {
 }
 
 // Run.
-run();
+if (require.main === module) {
+  run();
+}
+
+module.exports = {
+    run: run
+};
 

@@ -5,7 +5,7 @@
     "url": "http://github.com/toashd"
   },
   "bin": {
-    "tabzz": "./bin/tabz.js"
+    "tabz": "./bin/tabz.js"
   },
   "version": "1.0.0",
   "description": "Handling browser tabz on the command line.",
